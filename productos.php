@@ -57,7 +57,7 @@ abrir_conexion();//Abre la conexion a la base de datos
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="proyect.html">Proyecto</a>
                   </li>
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="inversors.html">Inversores</a>
+                  <li class="rd-nav-item"><a class="rd-nav-link" href="inversors.html">Tienda</a>
                   </li>
                   <li class="rd-nav-item"><a class="rd-nav-link" href="#">Productores</a>
                   </li>
