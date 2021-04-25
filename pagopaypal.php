@@ -62,7 +62,7 @@ abrir_conexion();//Abre la conexion a la base de datos
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo.webp" alt="" width="196" height="47"/></a>Mesa Verde</div>
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo.webp" alt="" width="196" height="47"/></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
