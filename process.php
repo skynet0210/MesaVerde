@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	$product_name = $result['product_name'];//Nombre del producto
 	$product_price = $result['product_price'];//Precio del producto
 	$product_currency = $result['product_currency'];//Moneda del producto
-		$total = $cantidad * $product_price;
+	$total = $cantidad * $product_price;
 	cerrar_conexion();//Cierro la conexion a la base de datos
 
 
@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 <input type="hidden" name="amount" value="<?php echo $total; ?>">
 <input type="hidden" name="currency_code" value="<?php echo $product_currency; ?>">
 <input type="hidden" name="button_subtype" value="services">
-<input type="hidden" name="quantity" value="<?php echo $cantidad; ?>">
+
 <input type="hidden" name="no_note" value="0">
 </form>
 <script type="text/javascript">
