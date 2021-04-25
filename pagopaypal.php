@@ -194,11 +194,12 @@ abrir_conexion();//Abre la conexion a la base de datos
             </div>
             <div class="cart-inline-footer">
     <!--          <div class="group-sm"><a class="button button-md button-default-outline-2 button-wapasha" href="process.php?id=<?php echo base64_encode($result['product_id']); ?>">Invertir Ahora</a></div> -->
-              
+
             </div>
-                      <h5 id='resultado<?php echo ($result['product_name']); ?>'></h5>
-                      <input class="button button-md button-default-outline-2 "  type="submit" name="" value="Invertir">
-                      
+              <input class="button button-md button-default-outline-2 "  type="submit" name="" value="Invertir">
+              <h5 id='resultado<?php echo ($result['product_name']); ?>'></h5>
+
+
             </form>
           </div>
         </div>
@@ -208,7 +209,7 @@ abrir_conexion();//Abre la conexion a la base de datos
 ?>
       </div>
       <div id="textoInvertir">
-        
+
       </div>
 
 <br><br><br>
