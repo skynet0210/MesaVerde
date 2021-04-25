@@ -11,6 +11,25 @@ abrir_conexion();//Abre la conexion a la base de datos
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Invierte - Paypal</title>
+
+    <!-- MetaTags -->
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Mesa Verde">
+    <meta name="description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mesaverde.com.ec/">
+    <meta property="og:title" content="Mesa Verde">
+    <meta property="og:description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+    <meta property="og:image" content="https://i.ibb.co/0CQmpKS/Webp-net-resizeimage.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mesaverde.com.ec/">
+    <meta property="twitter:title" content="Mesa Verde">
+    <meta property="twitter:description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+    <meta property="twitter:image" content="https://i.ibb.co/0CQmpKS/Webp-net-resizeimage.jpg">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
@@ -41,7 +60,7 @@ abrir_conexion();//Abre la conexion a la base de datos
               <!-- RD Navbar Toggle-->
               <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
               <!-- RD Navbar Brand-->
-              <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo-default-196x47.png" alt="" width="196" height="47"/></a>Mesa Verde</div>
+              <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo.webp" alt="" width="196" height="47"/></a>Mesa Verde</div>
             </div>
             <div class="rd-navbar-main-element">
               <div class="rd-navbar-nav-wrap">

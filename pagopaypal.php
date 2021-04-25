@@ -12,6 +12,26 @@ abrir_conexion();//Abre la conexion a la base de datos
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- MetaTags -->
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Mesa Verde">
+    <meta name="description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mesaverde.com.ec/">
+    <meta property="og:title" content="Mesa Verde">
+    <meta property="og:description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+    <meta property="og:image" content="https://i.ibb.co/0CQmpKS/Webp-net-resizeimage.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mesaverde.com.ec/">
+    <meta property="twitter:title" content="Mesa Verde">
+    <meta property="twitter:description" content="Buscar la asociación directa entre propietarios, inversionistas y Mesa Verde para lograr la trazabilidad y oportunidad de negocios verdes mediante contratos a largo plazo para garantizar la ubicación de la fruta en mercados internacionales.">
+    <meta property="twitter:image" content="https://i.ibb.co/0CQmpKS/Webp-net-resizeimage.jpg">
+
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -42,7 +62,7 @@ abrir_conexion();//Abre la conexion a la base de datos
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo-default-196x47.png" alt="" width="196" height="47"/></a>Mesa Verde</div>
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo.webp" alt="" width="196" height="47"/></a>Mesa Verde</div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -158,7 +178,7 @@ abrir_conexion();//Abre la conexion a la base de datos
           <div class="unit align-items-center">
             <div class="unit-left"><a class="cart-inline-figure" href="#"><img src="images/product-mini-1-108x100.png" alt="" width="108" height="100"/></a></div>
             <div class="unit-body">
-              <h6 class="cart-inline-name"><?php echo $result['product_name']; ?></h6>
+            <h6 class="cart-inline-name"><?php echo $result['product_name']; ?> ($ <?php echo $result['product_price']; ?>)</h6>
               <div>
                 <div class="group-xs group-inline-middle d-inline">
                   <div class="table-cart-stepper">
@@ -174,17 +194,23 @@ abrir_conexion();//Abre la conexion a la base de datos
             </div>
             <div class="cart-inline-footer">
     <!--          <div class="group-sm"><a class="button button-md button-default-outline-2 button-wapasha" href="process.php?id=<?php echo base64_encode($result['product_id']); ?>">Invertir Ahora</a></div> -->
-              <input class="button button-md button-default-outline-2 " type="submit" name="" value="Invertir">
+              
             </div>
                       <h5 id='resultado<?php echo ($result['product_name']); ?>'></h5>
+                      <input class="button button-md button-default-outline-2 "  type="submit" name="" value="Invertir">
+                      
             </form>
           </div>
         </div>
         <?php
 
-        }
-        ?>
+}
+?>
       </div>
+      <div id="textoInvertir">
+        
+      </div>
+
 <br><br><br>
 
 
@@ -197,7 +223,7 @@ abrir_conexion();//Abre la conexion a la base de datos
               <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
-                    <div class="footer-brand"><a href="index.html"><img src="images/logo-inverse-196x42.png" alt="" width="196" height="42"/></a></div>
+                    <div class="footer-brand"><a href="index.html"><img src="images/logo.webp" alt="" width="196" height="42"/></a></div>
                     <p>Mesa <strong style="color:green">Verde</strong> es una organización que ofrece oportunidades de negocio a inversores y productores basados en una agricultura sustentable</p>
                     <ul class="footer-contacts d-inline-block d-md-block">
                       <li>
